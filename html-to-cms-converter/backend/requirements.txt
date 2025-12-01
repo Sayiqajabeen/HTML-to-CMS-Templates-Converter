@@ -1,0 +1,34 @@
+# ============================================
+# requirements.txt - Windows Compatible Version
+# Fixed for Windows installation without build tools
+# ============================================
+
+# Core Web Framework
+flask==3.0.0
+flask-cors==4.0.0
+
+# HTML/XML Parsing - Use html5lib instead of lxml on Windows
+beautifulsoup4==4.12.2
+html5lib==1.1
+# lxml==4.9.3  # Commented out - causes issues on Windows
+
+# OpenAI API
+openai==1.3.0
+
+# Environment Configuration
+python-dotenv==1.0.0
+
+# CSS Parsing
+tinycss2==1.2.1
+
+# HTTP Requests
+requests==2.31.0
+
+# Additional utilities
+Werkzeug==3.0.0
+click==8.1.7
+itsdangerous==2.1.2
+Jinja2==3.1.2
+MarkupSafe==2.1.3 
+flask  
+flask-cors
