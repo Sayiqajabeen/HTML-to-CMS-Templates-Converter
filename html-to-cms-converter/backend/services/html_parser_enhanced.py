@@ -142,7 +142,7 @@ class EnhancedHTMLParser:
             classes = ' '.join(btn.get('class', []))
             if any(word in classes.lower() for word in ['btn', 'button', 'cta']):
                 content['buttons'].append({
-                    'text': btn.get_text(strip=True),
+                    'text': btn.   (strip=True),
                     'href': btn.get('href', '#'),
                     'classes': classes
                 })
