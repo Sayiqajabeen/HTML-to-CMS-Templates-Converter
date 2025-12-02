@@ -141,7 +141,7 @@ Text Domain: ai-theme
         template = """<!DOCTYPE html>
 <html <?php language_attributes(); ?>>
 <head>
-    <meta charset="<?php bloginfo( 'charset' ); ?>">
+    <meta charset="< bloginfo( 'charset' ); ?>">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <?php wp_head(); ?>
 </head>
@@ -173,7 +173,7 @@ Text Domain: ai-theme
         return template
     
     def _generate_front_page_template(self):
-        """Generate front-page.php template"""
+        
         template = """<?php
 /**
  * Template Name: Front Page
